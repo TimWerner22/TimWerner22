@@ -1,0 +1,13 @@
+[B]Version 1.0.0[/B]
+- First public release
+
+[B]Version 1.0.0~beta2[/B]
+- Update artwork
+- Add upload warning
+- Add more sensitive filters
+
+[B]Version 1.0.0~beta1[/B]
+- First Beta
+
+[B]Version 0.0.1[/B]
+- Initial version
