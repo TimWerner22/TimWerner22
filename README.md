@@ -1,2 +1,2 @@
 # repository.kodiman.public-1.0.2
-Kodimans Repo
+Kodimans Repo / https://www.kodiman.net/
