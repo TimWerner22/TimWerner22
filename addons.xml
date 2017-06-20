@@ -258,4 +258,36 @@ https://www.youtube.com/user/SemperVideo/
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+3
+    <requires>
+4
+        <import addon="xbmc.python" version="2.1.0"/>
+5
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+6
+    </requires>
+7
+    <extension point="xbmc.python.pluginsource" library="default.py">
+8
+        <provides>video</provides>
+9
+    </extension>
+10
+    
+11
+​
+12
+    <extension point="xbmc.addon.metadata">
+13
+        <summary>f4mTester</summary>
+14
+        <description></description>
+15
+        <platform>all</platform>
+16
+    </extension>
+17
+</addon>
 </addons>
