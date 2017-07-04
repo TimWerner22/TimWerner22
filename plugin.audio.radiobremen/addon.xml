@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.radiobremen" name="[COLOR white]Radio[/COLOR] [COLOR green]Bremen[/COLOR]" version="2.0.1" provider-name="[COLOR white]Kodi[/COLOR][COLOR green]man[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Radio Addon</summary>
+		<description lang="en">[COLOR white]Radio Bremen | Ein Leben lang [COLOR green]Gruen[/COLOR]- [COLOR white]Weiss[/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://www.kodiman.net</forum>
+		<website></website>
+		<news></news>
+		<genre>radio,german</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
