@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.skinbase18" name="[COLOR orange]Guidos[/COLOR] [COLOR lime]SKINBASE[/COLOR] [COLOR orange]18[/COLOR]" version="2.0.3" provider-name="[COLOR lime]GUIDO | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="Guidos SKINBASE18 REPOSITORY">
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]Guidos[/COLOR] [COLOR orange]Skinbase[/COLOR] [COLOR lime]18[/COLOR] [COLOR orange]REPOSITORY[/COLOR]</summary>
+        <description>[COLOR blue]Infos unter
+https://www.facebook.com/groups/hskde/
+https://forum.kodiman.eu/forum/index.php[/COLOR]
+
+		</description>
+        <platform>all</platform>
+    </extension>
+</addon>
