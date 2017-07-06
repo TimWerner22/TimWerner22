@@ -508,7 +508,9 @@ Hardware - Software - Kodi - DE</description>
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
         <description>Forum :
-https://www.kodiman.net/</description>
+https://www.kodiman.net/
+Hardware - Software - Kodi - DE :
+https://www.facebook.com/groups/hskde/</description>
         <platform>all</platform>
     </extension>
 </addon>
