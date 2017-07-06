@@ -19,6 +19,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.radiobremen" name="[COLOR white]Radio[/COLOR] [COLOR green]Bremen[/COLOR]" version="2.0.1" provider-name="[COLOR white]Kodi[/COLOR][COLOR green]man[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Radio Addon</summary>
+		<description lang="en">[COLOR white]Radio Bremen | Ein Leben lang [COLOR green]Gruen[/COLOR]- [COLOR white]Weiss[/COLOR]</description>
+		<platform>all</platform>
+		<forum>http://www.kodiman.net</forum>
+		<website></website>
+		<news></news>
+		<genre>radio,german</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
 <addon id="plugin.audio.rocknroll" name="[COLOR blue]Rockn Roll Station[/COLOR]" version="1.0.2" provider-name="[COLOR blue]Ungatonga - Loki (HSK - KUS)[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -436,6 +456,35 @@ https://www.facebook.com/venix.tech.3
 	</extension>
 </addon>
 
+<addon id="repository.aeon.nox.silvo" name="Aeon Nox: SiLVO Repository" version="1.0.4" provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Aeon Nox: SiLVO Repo">
+		<dir minversion="15.0.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard</datadir>
+		</dir>
+		<dir minversion="16.0.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>My version of Aeon Nox 5</summary>
+		<description>Main Repository for Aeon Nox: SiLVO</description>
+		<platform>all</platform>
+		<news>[B]***Recent Changes***[CR]Remove md5 hash support (never used it)</news>
+	</extension>
+</addon>
+
 <addon id="repository.hsk.kodiaddons" name="[COLOR lime]HSK-DE REPOSITORY[/COLOR]" version="1.0.1" provider-name="[COLOR lime]HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="HSK-DE DE REPOSITORY">
 		<info compressed="false">http://hsk.goip.de/hsk-repo/de/addons.xml</info>
@@ -460,6 +509,64 @@ Hardware - Software - Kodi - DE</description>
         <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
         <description>Forum :
 https://www.kodiman.net/</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.ninjasys" name="The [COLOR blue]Ninjasys[/COLOR] [COLOR red]repo[/COLOR] - [COLOR white]xXx addons[/COLOR] [COLOR purple]by oneil[/COLOR]" version="1.1.0" provider-name="oneil - maintained by Goliath from Team Evolve">
+	<extension point="xbmc.addon.repository" name="The [COLOR blue]Ninjasys[/COLOR] [COLOR red]repo[/COLOR] - [COLOR white]xXx addons[/COLOR] [COLOR purple]by oneil[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The [COLOR blue]Ninjasys[/COLOR] repo contain xXx addons.</summary>
+		<description>The [COLOR blue]Ninjasys[/COLOR] repo, containing all of [COLOR white]oneil's[/COLOR] porn addons.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.0" provider-name="noobsandnerds">
+	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+	        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+	        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+		</dir>
+		<dir>
+	        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of The Community Portal</summary>
+		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.skinbase17" name="[COLOR orange]GUIDOS[/COLOR] [COLOR lime]SKINBASE[/COLOR] [COLOR orange]17[/COLOR]" version="2.0.0" provider-name="[COLOR lime]GUIDO | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="[COLOR cyan]GUIDOS SKINBASE 17 REPOSITORY[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]Guidos[/COLOR] [COLOR orange]Skinbase[/COLOR] [COLOR lime]17[/COLOR] [COLOR orange]REPOSITORY[/COLOR]</summary>
+        <description>
+[COLOR cyan]Infos unter
+https://www.facebook.com/groups/hskde/
+https://forum.kodiman.eu/forum/index.php[/COLOR]
+		</description>
         <platform>all</platform>
     </extension>
 </addon>
@@ -592,95 +699,5 @@ https://www.kodiman.net/</description>
     <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="repository.ninjasys" name="The [COLOR blue]Ninjasys[/COLOR] [COLOR red]repo[/COLOR] - [COLOR white]xXx addons[/COLOR] [COLOR purple]by oneil[/COLOR]" version="1.1.0" provider-name="oneil - maintained by Goliath from Team Evolve">
-	<extension point="xbmc.addon.repository" name="The [COLOR blue]Ninjasys[/COLOR] [COLOR red]repo[/COLOR] - [COLOR white]xXx addons[/COLOR] [COLOR purple]by oneil[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The [COLOR blue]Ninjasys[/COLOR] repo contain xXx addons.</summary>
-		<description>The [COLOR blue]Ninjasys[/COLOR] repo, containing all of [COLOR white]oneil's[/COLOR] porn addons.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.aeon.nox.silvo" name="Aeon Nox: SiLVO Repository" version="1.0.4" provider-name="SiLVO">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="Aeon Nox: SiLVO Repo">
-		<dir minversion="15.0.0">
-			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml</info>
-			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/isengard</datadir>
-		</dir>
-		<dir minversion="16.0.0">
-			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml</info>
-			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/jarvis</datadir>
-		</dir>
-		<dir minversion="16.9.0">
-			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml</info>
-			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>My version of Aeon Nox 5</summary>
-		<description>Main Repository for Aeon Nox: SiLVO</description>
-		<platform>all</platform>
-		<news>[B]***Recent Changes***[CR]Remove md5 hash support (never used it)</news>
-	</extension>
-</addon>
-
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.0" provider-name="noobsandnerds">
-	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
-	        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
-		</dir>
-		<dir>
-	        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Home of The Community Portal</summary>
-		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.audio.radiobremen" name="[COLOR white]Radio[/COLOR] [COLOR green]Bremen[/COLOR]" version="2.0.1" provider-name="[COLOR white]Kodi[/COLOR][COLOR green]man[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>audio</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Radio Addon</summary>
-		<description lang="en">[COLOR white]Radio Bremen | Ein Leben lang [COLOR green]Gruen[/COLOR]- [COLOR white]Weiss[/COLOR]</description>
-		<platform>all</platform>
-		<forum>http://www.kodiman.net</forum>
-		<website></website>
-		<news></news>
-		<genre>radio,german</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
 </addon>
 </addons>
