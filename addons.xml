@@ -19,6 +19,31 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.mp3pn"
+       name="[COLOR blue]Mp3pm[/COLOR]"
+	   version="1.0.0"
+	   provider-name="[COLOR blue]Loki1979 | SH Germania[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.7.8" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>[COLOR blue]Mp3pm[/COLOR]</summary>
+        <language>de</language>
+        <description>[COLOR blue]Mp3pm Webseite :
+http://mp3pn.biz/
+
+Achtung !
+Für Schäden jeglicher Art die aus der Verwendung
+des Addons entstehen könnten,übernehmen die Entwickler keine Haftung !
+Die Verwendung des Addons unterliegt der alleinigen Verantwortung des Nutzers und dessen handeln ![/COLOR]</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.audio.radiobremen" name="[COLOR white]Radio[/COLOR] [COLOR green]Bremen[/COLOR]" version="2.0.1" provider-name="[COLOR white]Kodi[/COLOR][COLOR green]man[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
