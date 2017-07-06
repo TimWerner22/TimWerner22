@@ -499,6 +499,20 @@ Hardware - Software - Kodi - DE</description>
     </extension>
 </addon>
 
+<addon id="repository.kodibrasilforum" name="Kodi Brasil Forum Repository" version="1.0.6" provider-name="Wanilton">
+	<extension point="xbmc.addon.repository" name="Kodi Brasil Forum Repository">
+		<info>http://files.xbmcbrasil.net/Main/addons.xml</info>
+		<checksum>http://files.xbmcbrasil.net/Main/addons.xml.md5</checksum>
+		<datadir zip="true">http://files.xbmcbrasil.net/Main/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Brazil Forum Repository Addon</summary>
+		<description>Official Repository Kodi Brazil Forum</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.kodiman.public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="1.0.2" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
 		<info compressed="false">https://raw.githubusercontent.com/Kodiman1402/repository.kodiman.public-1.0.2/master/addons.xml</info>
