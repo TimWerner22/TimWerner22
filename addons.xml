@@ -134,8 +134,8 @@ http://www.sunshine-live.de/
 </addon>
 
 <addon id="plugin.program.hskwizard"
-       name="[COLOR lime]HSK WIZARD[/COLOR]"
-	   version="1.0.7"
+       name="[COLOR blue]HSK-DE WIZARD[/COLOR]"
+	   version="1.1.4"
 	   provider-name="LOKI1979">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
