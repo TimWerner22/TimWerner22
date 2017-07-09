@@ -3,6 +3,7 @@
 import xbmcgui,requests
 
 urls = ["HSK Server 1*http://hsk.goip.de/hsk-repo/de/repository.hsk.kodiaddons/repository.hsk.kodiaddons-1.0.1.zip"]
+       ["HSK Server 2*http://v36557.1blu.de/files/public-docs/hsk/17/kodi_backup.zip"]
        ["Netzkino*http://www.netzkino.de/"]
 	   
 output = ''		
