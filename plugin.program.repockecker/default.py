@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import xbmcgui,requests
 
-urls = ["synology*http://www.synology-forum.de", "chip*http://www.chip.de/"]#usw in der klammer
+urls = ["HSK Server 1*http://hsk.goip.de/hsk-repo/", "HSK Server 2*http://v36557.1blu.de/files/public-docs/hsk/17/kodi_backup.zip"]#usw in der klammer
 
 output = ''		
 for url in urls:
