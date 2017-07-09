@@ -204,6 +204,22 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
 </addon>
 
+<addon id="plugin.program.repockecker" name="Repo Checker" version="1.0.0" provider-name="Kodiman | Loki1979">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.12.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Repo Checker</summary>
+<description>www.whatismyip.com</description>
+
+	</extension>
+</addon>
+
 <addon id="plugin.video.burningseries"
 	   name="Burning Series"
 	   version="1.5.9"
@@ -770,6 +786,28 @@ https://forum.kodiman.eu/forum/index.php[/COLOR]
         <language></language>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.12.4"
+       provider-name="kennethreitz, beenje">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python HTTP for Humans</summary>
+    <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/beenje/script.module.requests</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="3.0.32" provider-name="tvaddons.ag, Eldorado">
