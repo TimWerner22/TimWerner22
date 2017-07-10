@@ -11,7 +11,8 @@ urls = ["HSK Server 1*http://hsk.goip.de/hsk-repo/de/repository.hsk.kodiaddons/r
 		"Exodus Repo*https://github.com/lastship/ExodusRepo/raw/master/addons.xml",
 		"Superrepo*http://srp.nu",
 		"Membrane Repo*https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/membrane-xbmc-repo/repository.membrane.xbmc-plugins.zip",
-		"Metal Kettles Repo*http://kodi.metalkettle.co/"]
+		"Metal Kettles Repo*http://kodi.metalkettle.co/",
+		"Gegentest*http://www.kgfsweiflgulw.de]
 	   
 output = ''		
 for url in urls:
