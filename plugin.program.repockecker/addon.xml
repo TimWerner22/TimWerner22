@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.repockecker" name="Repo Checker" version="1.0.4" provider-name="Kodiman | Loki1979">
+<addon id="plugin.program.repockecker" name="Repo Checker" version="1.0.5" provider-name="Kodiman | Loki1979">
     <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.requests" version="2.12.4"/>
