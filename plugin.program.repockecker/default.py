@@ -8,7 +8,7 @@ urls = ["HSK Server 1*http://hsk.goip.de/hsk-repo/de/repository.hsk.kodiaddons/r
 		"Guidos SkinBase16*https://github.com/kaffepausse71/skinbase16/",
 		"Guidos SkinBase17*https://github.com/kaffepausse71/skinbase17/",
 		"Guidos SkinBase18*https://github.com/kaffepausse71/skinbase18/",
-		"Angela Merkel Website*https://www.angela-merkel.de/",
+		"Exodus Repo*https://github.com/lastship/ExodusRepo/raw/master/addons.xml",
 		"Superrepo*http://srp.nu",
 		"Membrane Repo*https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/membrane-xbmc-repo/repository.membrane.xbmc-plugins.zip",
 		"Metal Kettles Repo*http://kodi.metalkettle.co/"]
